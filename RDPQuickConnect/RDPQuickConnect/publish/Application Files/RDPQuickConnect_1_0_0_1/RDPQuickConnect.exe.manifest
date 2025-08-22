@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RDPQuickConnect.exe" version="1.0.0.1" publicKeyToken="ab63f83d3d709f5b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RDPQuickConnect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RDPQuickConnect.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RDPQuickConnect.exe" size="10712">
+      <assemblyIdentity name="RDPQuickConnect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xNFjLv3XnKaa6ZugE5UnNOjgs96si6moC901rPH3FAQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RDPQuickConnect.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Desktop-80HCG\17637" issuerKeyHash="1eea0236d479e559ad30cf82cbd8d7a54b6c28b5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LOqlwaUpRaQr5bX12phQsoPKIuFOed46rLdf/u6zK7s=</DigestValue></Reference></SignedInfo><SignatureValue>xG7esA4NDbfdWmQYqgQ4HkB+3e63hsJRSVw+37WJYDxeo1vD89TTBMUpy1/Ym5WDZqKez+VBSGuoORat5P2fAW7ZVHZWbi9QZlx/9lp4hwsuhpgmEoTYh+IpBaroFh8Bk1E85W7UMOp6C7R1VdfuR4yrLGK9tb416JArYFubogQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2w7QXSYJeTk6UmKB6C/pukxwrP8xojvie/mLENqtujwktPrMeq09ouXu2dYqWuJaHYKp/2D7fTsE1JJC+0RwnkxGdZrUk1luIBylltc3sBiOZxxur+WSfaW/IdPaJrQhwpZxRRDZi7r29qd7r2pPTUOsANt8vNIILwV3Ax6v5XE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bb2bb3eefe5fb7ac3ade794ee122ca83b25098daf5b5e52ba44529a5c1a5ea2c" Description="" Url=""><as:assemblyIdentity name="RDPQuickConnect.exe" version="1.0.0.1" publicKeyToken="ab63f83d3d709f5b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Desktop-80HCG\17637</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bJzkRTeFZQ/pcoHmP630dxg+ZRlTqT+9dVeA+Z3V6tA=</DigestValue></Reference></SignedInfo><SignatureValue>GmUJ+RbX06JVoO57x/yskyBvnWe2pDL8MLPscVWLtE5CDIkL2bXV3uE0w4Kx/ce6J9e4ATfAe6rrdfcvbj5fxM+rp9cdQdFY1Ss+EO72nERzyabuL87CPs66aAhc+rsswxU0vx8py+Zq5Mdvtl3rfj4ziGbQJkyNjSRbQVST7U0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2w7QXSYJeTk6UmKB6C/pukxwrP8xojvie/mLENqtujwktPrMeq09ouXu2dYqWuJaHYKp/2D7fTsE1JJC+0RwnkxGdZrUk1luIBylltc3sBiOZxxur+WSfaW/IdPaJrQhwpZxRRDZi7r29qd7r2pPTUOsANt8vNIILwV3Ax6v5XE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQT/53hl2mTYFDGvVPlJpWazANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABlAHMAawB0AG8AcAAtADgAMABIAEMARwBcADEANwA2ADMANzAeFw0yNTA4MjIwMTA3MDRaFw0yNjA4MjIwNzA3MDRaMDExLzAtBgNVBAMeJgBEAGUAcwBrAHQAbwBwAC0AOAAwAEgAQwBHAFwAMQA3ADYAMwA3MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbDtBdJgl5OTpSYoHoL+m6THCs/zGiO+J7+YsQ2q26PCS0+sx6rT2i5e7Z1ipa4lodgqn/YPt9OwTUkkL7RHCeTEZ1mtSTWW4gHKWW1zewGI5nHG6v5ZJ9pb8h09omtCHClnFFENmLuvb2p3uvak9NQ6wA23y80ggvBXcDHq/lcQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHy7ulPc/ERV+jpc8K22Ws2NBBEkJ8b3vAWvyuolCxX1apwckq1pEOW+OOjti7dTwlYg4MXdl7KcLZGmJtNIcoFBnF3+G1GtPQcux4VKQvTH5BjQfV+RoP2jWRFqCJ57yaDguJctebdWkzVSjQBC/f4oB9NNTpefN4g901lLdt+j</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

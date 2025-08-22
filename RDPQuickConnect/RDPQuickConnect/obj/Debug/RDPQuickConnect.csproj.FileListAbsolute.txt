@@ -1,0 +1,12 @@
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\bin\Debug\RDPQuickConnect.exe.config
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\bin\Debug\RDPQuickConnect.exe
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\bin\Debug\RDPQuickConnect.pdb
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.csproj.AssemblyReference.cache
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.csproj.SuggestedBindingRedirects.cache
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.csproj.CoreCompileInputs.cache
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.exe
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.pdb
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\bin\Debug\RDPQuickConnect.exe.manifest
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\bin\Debug\RDPQuickConnect.application
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.exe.manifest
+C:\Users\17637\source\repos\RDPQuickConnect\RDPQuickConnect\obj\Debug\RDPQuickConnect.application
